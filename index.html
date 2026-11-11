@@ -14,24 +14,24 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0b1f3a">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1f3a'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='26' fill='%237dd3fc' text-anchor='middle'%3EJA%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#1f1c18">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f1c18'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='26' fill='%23d4b483' text-anchor='middle'%3EJA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Jahanzeb Ahmed","jobTitle":"Program Management & AI Transformation Leader","address":{"@type":"PostalAddress","addressLocality":"Islamabad","addressCountry":"PK"},"email":"mailto:jahanzebjamilpk@live.com","url":"https://jahanzebahmedja.github.io/","sameAs":["https://www.linkedin.com/in/jahanzeb-ahmed-8a35a94b"],"alumniOf":"Institute of Business Management (IoBM)"}
 </script>
 <style>
 :root{
-  --bg:#f6f8fb; --surface:#ffffff; --ink:#0f1b2d; --muted:#556275; --line:#e2e8f0;
-  --brand:#0b3d91; --accent:#0e7c86; --accent-soft:#e3f4f5; --hero:#0b1f3a; --hero-ink:#e8eef7; --chip:#eef2f8; --on-accent:#ffffff;
+  --bg:#f6f3ed; --surface:#fffdf9; --ink:#1f1c18; --muted:#6a6258; --line:#e5ddd1;
+  --brand:#2f5a4c; --accent:#2f5a4c; --accent-soft:#e7efe9; --hero:#1f1c18; --hero-ink:#efe8dc; --chip:#efe9df; --on-accent:#ffffff; --hl:#d4b483; --hl2:#e9d9bd; --hero-mute:#cfc6b8;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0b1220; --surface:#121b2d; --ink:#e6edf6; --muted:#97a6ba; --line:#22304a;
-  --brand:#7cb2ff; --accent:#4fd1c5; --accent-soft:#12303a; --hero:#08111f; --hero-ink:#e8eef7; --chip:#1a2640; --on-accent:#06202a;}}
+  --bg:#141210; --surface:#1d1a17; --ink:#ece5da; --muted:#a59c8f; --line:#2f2a24;
+  --brand:#9cc6b2; --accent:#9cc6b2; --accent-soft:#22302a; --hero:#0f0d0b; --hero-ink:#efe8dc; --chip:#27231e; --on-accent:#11201a; --hl:#d4b483; --hl2:#e9d9bd; --hero-mute:#cfc6b8;}}
 :root[data-theme="dark"]{
-  --bg:#0b1220; --surface:#121b2d; --ink:#e6edf6; --muted:#97a6ba; --line:#22304a;
-  --brand:#7cb2ff; --accent:#4fd1c5; --accent-soft:#12303a; --hero:#08111f; --hero-ink:#e8eef7; --chip:#1a2640; --on-accent:#06202a;}
+  --bg:#141210; --surface:#1d1a17; --ink:#ece5da; --muted:#a59c8f; --line:#2f2a24;
+  --brand:#9cc6b2; --accent:#9cc6b2; --accent-soft:#22302a; --hero:#0f0d0b; --hero-ink:#efe8dc; --chip:#27231e; --on-accent:#11201a; --hl:#d4b483; --hl2:#e9d9bd; --hero-mute:#cfc6b8;}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
@@ -47,25 +47,25 @@ nav .wrap{display:flex;align-items:center;gap:18px;height:60px}
 .btn{display:inline-flex;align-items:center;gap:8px;font:inherit;font-weight:600;font-size:14px;padding:10px 16px;border-radius:10px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,background .15s ease}
 .btn:hover{transform:translateY(-1px)}
 .btn-primary{background:var(--accent);color:var(--on-accent)}
-.btn:focus-visible,.tab:focus-visible,.theme:focus-visible,a:focus-visible{outline:3px solid #7dd3fc;outline-offset:2px}
+.btn:focus-visible,.tab:focus-visible,.theme:focus-visible,a:focus-visible{outline:3px solid var(--hl);outline-offset:2px}
 .btn-ghost{background:transparent;color:var(--hero-ink);border-color:rgba(255,255,255,.28)}
 .btn-line{background:var(--surface);color:var(--ink);border-color:var(--line)}
 .theme{background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;width:36px;height:36px;cursor:pointer;font-size:16px}
 @media (max-width:760px){.navlinks{display:none}}
 /* hero */
-.hero{background:radial-gradient(1200px 500px at 85% -10%,rgba(79,209,197,.18),transparent 60%),var(--hero);color:var(--hero-ink)}
+.hero{background:var(--hero);color:var(--hero-ink)}
 .hero .wrap{display:grid;grid-template-columns:1fr 260px;gap:40px;align-items:center;padding-top:64px;padding-bottom:64px}
-.eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#7dd3fc;background:rgba(125,211,252,.1);border:1px solid rgba(125,211,252,.25);padding:4px 10px;border-radius:999px}
-.hero h1{font-size:clamp(36px,6vw,58px);line-height:1.05;letter-spacing:-.03em;margin:16px 0 10px;font-weight:800;color:#fff}
-.hero .role{font-size:clamp(18px,2.4vw,22px);color:#a7f3ec;font-weight:600;margin:0 0 14px}
-.hero p.lead{font-size:17px;color:#c9d5e6;max-width:600px;margin:0 0 22px}
-.hero .meta{display:flex;flex-wrap:wrap;gap:8px 0;font-size:14px;color:#c9d5e6;margin-bottom:24px}
+.eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--hl);background:rgba(212,180,131,.1);border:1px solid rgba(212,180,131,.3);padding:4px 10px;border-radius:999px}
+.hero h1{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(38px,6vw,60px);line-height:1.05;letter-spacing:-.015em;margin:16px 0 10px;font-weight:700;color:#fff}
+.hero .role{font-size:clamp(18px,2.4vw,22px);color:var(--hl2);font-weight:600;margin:0 0 14px}
+.hero p.lead{font-size:17px;color:var(--hero-mute);max-width:600px;margin:0 0 22px}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px 0;font-size:14px;color:var(--hero-mute);margin-bottom:24px}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:10px}
-.hero .meta span+span:before{content:"·";margin:0 12px;color:#7dd3fc}
+.hero .meta span+span:before{content:"·";margin:0 12px;color:var(--hl)}
 .portrait{width:260px;height:260px;border-radius:24px;object-fit:cover;border:4px solid rgba(255,255,255,.12);box-shadow:0 20px 50px rgba(0,0,0,.35)}
 @media (max-width:760px){.eyebrow{font-size:11.5px}.hero .wrap{grid-template-columns:1fr;padding-top:40px;padding-bottom:44px}.portrait{width:140px;height:140px;border-radius:20px;order:-1}}
 /* metrics */
-.metrics{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:-34px;position:relative;box-shadow:0 10px 30px rgba(11,31,58,.08)}
+.metrics{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:-34px;position:relative;box-shadow:0 10px 30px rgba(40,30,20,.08)}
 .metric{background:var(--surface);padding:18px 14px;text-align:center}
 .metric b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
 .metric span{font-size:12.5px;color:var(--muted);line-height:1.35;display:block;margin-top:2px}
@@ -73,7 +73,7 @@ nav .wrap{display:flex;align-items:center;gap:18px;height:60px}
 @media (max-width:480px){.metrics{grid-template-columns:repeat(2,1fr)}}
 /* sections */
 section{padding:64px 0 8px}
-h2.sec{font-size:clamp(24px,3vw,30px);letter-spacing:-.02em;margin:0 0 6px}
+h2.sec{font-family:"Source Serif 4",Georgia,serif;font-weight:700;font-size:clamp(26px,3.2vw,32px);letter-spacing:-.01em;margin:0 0 6px}
 p.sub{color:var(--muted);margin:0 0 26px;max-width:680px}
 /* lenses */
 .tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
@@ -90,7 +90,7 @@ p.sub{color:var(--muted);margin:0 0 26px;max-width:680px}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:560px){.grid{grid-template-columns:1fr}}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;transition:transform .2s ease,box-shadow .2s ease}
-.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(11,31,58,.08)}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(40,30,20,.08)}
 .card .tag{display:inline-block;font-size:12px;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:3px 9px;border-radius:999px;margin-bottom:10px}
 .card h3{margin:0 0 8px;font-size:17px;line-height:1.35}
 .card p{margin:0;color:var(--muted);font-size:14.5px}
@@ -124,7 +124,7 @@ p.sub{color:var(--muted);margin:0 0 26px;max-width:680px}
 /* contact */
 .contact{background:var(--hero);color:var(--hero-ink);border-radius:20px;padding:36px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;margin:64px 0 40px}
 .contact h2{margin:0 0 6px;color:#fff;font-size:28px;letter-spacing:-.02em}
-.contact p{margin:0;color:#c9d5e6}
+.contact p{margin:0;color:var(--hero-mute)}
 @media (max-width:700px){.contact{grid-template-columns:1fr;padding:26px}}
 footer{color:var(--muted);font-size:13px;text-align:center;padding:0 0 40px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
@@ -341,7 +341,7 @@ footer{color:var(--muted);font-size:13px;text-align:center;padding:0 0 40px}
 <script>
 const lenses = [
   {id:'program', label:'Program & Delivery Leadership', title:'Program & Delivery Leadership', cv:'cv/Jahanzeb_Ahmed_CV_Program_Delivery_Manager.pdf',
-   text:'Multi-team software, SaaS and integration programs — plus the PMO governance and operations leadership that keep them on track.',
+   text:'Multi-team software, SaaS and integration programs — plus the governance and operations leadership that keep them on track.',
    points:['Teams of up to 75 on platforms used by millions (Zameen.com, OLX)','Ran a country operation end to end: clients, hiring, vendors, executive reporting','Multi-country rollouts across Africa and Asia; $2M+ portfolio; 100+ SOWs','Bank integrations and UAT for SBP, HBL, UBL and Allied Bank; vendor SLAs enforced'],
    alt:{label:'Operations-leadership version', cv:'cv/Jahanzeb_Ahmed_CV_Operations_Transformation_Leader.pdf'}},
   {id:'ai', label:'AI Transformation', title:'AI Transformation & Delivery', cv:'cv/Jahanzeb_Ahmed_CV_Program_AI_Transformation.pdf',
